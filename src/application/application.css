@@ -1,0 +1,19 @@
+#backgroundLeft{
+	/*-fx-background-color: linear-gradient(#dc9656,#ab4642) ;*/
+	-fx-background-color: linear-gradient(#000000,#ffffff) ;
+}
+.jfx-text-field{
+-fx-prompt-text-fill: #000000;
+-fx-text-fill: #000000;
+}
+.button{
+	-fx-background-color: black;
+	
+}
+.button:hover{
+	-fx-background-color: red;
+	-fx-text-fill: black;
+}
+.button:pressed{
+	-fx-rotate: 5;
+}
